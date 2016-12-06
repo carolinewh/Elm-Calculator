@@ -1,0 +1,81 @@
+body {
+  font-family: Helvetica, Arial;
+  font-size: 20px;
+  line-height: 1.5;
+  text-rendering: optimizeLegibility;
+  margin-left: auto;
+  margin-right: auto;
+  width: 201px;
+}
+
+.app {
+  box-sizing: border-box;
+  padding: 20px;
+  width: 201px;
+  margin-right: auto;
+  margin-left: auto;
+}
+
+.center {
+  margin: 0 auto;
+}
+
+.calculator .display {
+  background: #e6e6fa;
+  border-top-left-radius: 7px;
+  border-top-right-radius: 7px;
+  border-bottom-left-radius: 7px;
+  border-bottom-right-radius: 7px;
+  border: 1px solid white;
+  font-weight: bold;
+  font-size: 30px;
+  margin: 1px;
+  overflow: hidden;
+  height:42px;
+  width: 200;
+}
+
+.calculator {
+  border-radius: 5px;
+  overflow: hidden;
+  margin-left: auto;
+  margin-right: auto;
+
+}
+
+.calculator .display-text {
+  color: #2f4f4f;
+  margin: 0px 5px;
+  overflow: hidden;
+  text-align: left;
+  width: 200;
+}
+
+.title {
+  font-size: 1.4em;
+  font-weight: normal;
+  line-height: 1.4;
+  margin: 20px 0;
+  text-align: center;
+  width: 200px;
+}
+
+.calculator .button:hover {
+  background-color: #ffff99;
+  color: #190000;
+}
+
+.calculator .button {
+  background: #ffe4b5;
+  font-size: 25px;
+  font-weight: bold;
+  font: "Big Caslon";
+  border-top-left-radius: 7px;
+  border-top-right-radius: 7px;
+  border-bottom-left-radius: 7px;
+  border-bottom-right-radius: 7px;
+  border: 1px #bdb76b;
+  color: #190000;
+  width: 50px;
+  transition-duration: 1s;
+}
